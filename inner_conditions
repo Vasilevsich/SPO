@@ -1,0 +1,5 @@
+a = 10;
+b = 1;
+(if a>2 then (while b<15 do b = b+1;) else a = 100;)
+print(a);
+print(b);

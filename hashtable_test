@@ -1,0 +1,8 @@
+HashTable a;
+put_value(a,ab,a);
+put_value(a,ba,2);
+print(a);
+b = get_value(a,ba);
+delete_value(a,ab);
+print(a);
+print(b);
