@@ -2,7 +2,12 @@ a = 3;
 b = a + 10;
 HashTable c;
 DoubleLinkedList d;
-(if a == 2 then  put_value(c, re, qq); else (while b < 20 do a = a + 4; b = b+1;) insert(d,0,1);)
+(if a == 2 then
+  put_value(c, re, qq);
+  else
+  (while b < 20 do
+   a = a + 4; b = b+1;)
+   insert(d,0,1);)
 print(a);
 print(b);
 print(c);
